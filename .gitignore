@@ -1,4 +1,6 @@
 .idea
+temp
 vendor
+.DS_Store
 composer.lock
 .phpunit.result.cache
