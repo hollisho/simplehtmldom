@@ -3,8 +3,8 @@
   "type": "library",
   "description": "html dom parse",
   "keywords": [
-    "object",
-    "builder"
+    "html",
+    "dom"
   ],
   "license": "MIT",
   "authors": [
@@ -25,15 +25,18 @@
   },
   "autoload": {
     "psr-4": {
-      "hollisho\\objectbuilder\\": "src/"
+      "hollisho\\simplehtmldom\\": "src/"
     },
+    "files": [
+      "src/simple_html_dom.php"
+    ],
     "exclude-from-classmap": [
       "/tests/"
     ]
   },
   "autoload-dev": {
     "psr-4": {
-      "hollisho\\objectbuilderTests\\": "tests/"
+      "hollisho\\simplehtmldomTests\\": "tests/"
     },
     "exclude-from-classmap": [
       "/tests/"
